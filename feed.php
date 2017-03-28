@@ -11,8 +11,16 @@ $raw_feed = json_decode($objTwitter->getJsonFeed(),TRUE);
 
 $count_feed = count($raw_feed);
 
-echo "<!html><head><title>Twitter Video Downloader</title></head><body>";
 
+?>
+
+<!html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+<title>Twitter Video Downloader</title>
+</head>
+<body>
+<?php
 for($counter = 0; $counter <= $count_feed; $counter++){
 
 $strip_feed = $raw_feed[$counter]['extended_entities']['media'][0]['video_info']['variants'];
@@ -35,5 +43,7 @@ echo "<a href='" . $strip['url'] ."'>" . $strip['content_type']."</a>";
 
 }
 
-echo "</body></html>";
 ?>
+</body>
+</html>
+
