@@ -1,5 +1,4 @@
-# neochallenge-1
-HNG Intern Competition Solution: Question 1
+# Twitter Video Downloader 1
 
 To setup:
 
