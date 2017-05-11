@@ -2,8 +2,8 @@
 include_once('GetTwitterFeed.class.php');
 
 $retrieveUrl = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=xyluz";
-$consumer_key = "12u86gn9yvvkcYFRm3lsWcYz7";
-$consumer_key_secret = "iKjf5T621LAkVk65NX3Jt9TTlJifSnnccpdEZd9HolscYXvEBF";
+$consumer_key = "customer_key";
+$consumer_key_secret = "customer_key_secret";
 
 $objTwitter = new GetTwitterFeed($retrieveUrl, $consumer_key, $consumer_key_secret);
 
