@@ -19,9 +19,9 @@
 
   <div class="container">
             <div class="content">
- 		<div class="title"><strong>NEO CHALLENGE</strong></div><br>
+ 		<div class="title"><strong>TWITTER VIDEO DOWNLOADER</strong></div><br>
                 <div class="tag">Welcome to twitter video downloader<br>
-Answer to Neo's challenge by xyluz</div><br>
+		</div><br>
                 <div class="message">
 
 
@@ -32,9 +32,6 @@ I need you to give me permission to your account:<br>
 3. Replace my consumer_key with yours <br>
 4. Replae my consumer_key_secret with yours <br>
 
-
-
-<a href="feed.php">Or just go ahead and use my account </a>
 
 <br>
 <br>
