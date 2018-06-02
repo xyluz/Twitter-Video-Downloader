@@ -2,8 +2,8 @@
 include_once('GetTwitterFeed.class.php');
 
 $retrieveUrl = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=xyluz";
-$consumer_key = "customer_key";
-$consumer_key_secret = "customer_key_secret";
+$consumer_key = "KjpmwIbjEKhKXipe4MZIQZvIW";
+$consumer_key_secret = "EOOpZxGkbzRSm3gEP6VK1hm3WerAKJf604bIHA7Guwf4FLipiK";
 
 $objTwitter = new GetTwitterFeed($retrieveUrl, $consumer_key, $consumer_key_secret);
 
@@ -30,14 +30,15 @@ for($counter = 0; $counter <= $count_feed; $counter++){
 
 $strip_feed = $raw_feed[$counter]['extended_entities']['media'][0]['video_info']['variants'];
 
-//loop
-//print_r($strip_feed);
 
 
 foreach($strip_feed as $strip){
+
+
 if($strip['content_type'] != "application/x-mpegURL"){
 
 echo "<div class='col-xs-6 col-lg-4'><h2>" . $strip['content_type']. "</h2>
+<p>Bitrate : ". $strip['bitrate'] ."</p>
  <p><video width='100%' controls>
   <source src='" . $strip['url'] . "' type='" . $strip['content_type'] . "'>
  
