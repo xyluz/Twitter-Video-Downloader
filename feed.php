@@ -2,8 +2,8 @@
 include_once('GetTwitterFeed.class.php');
 
 $retrieveUrl = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=xyluz";
-$consumer_key = "KjpmwIbjEKhKXipe4MZIQZvIW";
-$consumer_key_secret = "EOOpZxGkbzRSm3gEP6VK1hm3WerAKJf604bIHA7Guwf4FLipiK";
+$consumer_key = "customer secret";
+$consumer_key_secret = "customer_key_secret";
 
 $objTwitter = new GetTwitterFeed($retrieveUrl, $consumer_key, $consumer_key_secret);
 
@@ -30,7 +30,7 @@ for($counter = 0; $counter <= $count_feed; $counter++){
 
 $strip_feed = $raw_feed[$counter]['extended_entities']['media'][0]['video_info']['variants'];
 
-
+// print_r($strip_feed);
 
 foreach($strip_feed as $strip){
 
