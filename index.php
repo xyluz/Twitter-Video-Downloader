@@ -38,17 +38,26 @@ I need you to give me permission to your account:<br>
 
 <strong>How it works:</strong>
 <br>
-1. It goes to your timeline and fetch every recent tweets.<br>
-2. Strips down the tweets and fetch out the video content<br>
-3. Present all video content to you.<br>
+1. It goes to your timeline and fetch every recent tweets.<br />
+2. Strips down the tweets and fetch out the video content<br />
+3. Present all video content to you.<br />
 <br>
 
-SO, if you see a video you like, just retweet it. <br>
+SO, if you see a video you like, just retweet it. <br />
 come back to the app<br>
 And it will be listed <br>
-then you download whichever format you like.<br><br>
+then you download whichever format you like.<br><br />
 
 Thank you.
+
+
+<br>
+<br>
+
+<strong>Coming Soon</strong>
+<p>
+Android Version for twitter video downloader
+</p>
 </div>
 	</div>
 	</div>
